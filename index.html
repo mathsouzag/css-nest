@@ -5,6 +5,230 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Evento</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
     </head>
-    <body></body>
+    <body>
+        <header>
+            <a href="#" class="logo"
+                ><img
+                    src="images/logo.png"
+                    alt="Logo primeiro evento de tecnologia da NeST"
+            /></a>
+
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#topics">Tópicos</a></li>
+                <li><a href="#organization">Organização</a></li>
+            </ul>
+
+            <div class="register">
+                <a href="#form">Cadastro</a>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </header>
+        <section class="first" id="home">
+            <img
+                class="desktop"
+                src="images/primeiro-encontro3.png"
+                alt="Banner com uma imagem de um mouse e de um notebook sendo usados, utilizados para complementar o banner do primeiro evento de tecnologia promovido pela NeST"
+            />
+            <img
+                class="mobile"
+                src="images/primeiro-encontro-mobile.png"
+                alt="Banner com uma imagem de um mouse e de um notebook sendo usados, utilizados para complementar o banner do primeiro evento de tecnologia promovido pela NeST"
+            />
+        </section>
+        <section id="about">
+            <div class="local-technest">
+                <div class="local-text">
+                    <h1>Tech.NeST 2024</h1>
+                    <h2>O Futuro Começa Aqui!</h2>
+                    <span>Unifei Auditorio X</span>
+                    <p>25 e 26 de julho no Auditório X UNIFEI</p>
+                    <p>
+                        O TECH.NeST, abordará diversos temas da computação,
+                        reunindo profissionais e entusiastas para explorar as
+                        últimas tendências tecnológicas.
+                    </p>
+                    <button><a href="#form">Participe</a></button>
+                </div>
+                <div class="local-img">
+                    <img
+                        src="images/unifei.jpg"
+                        alt="Foto da Universidade Federal de Itajubá"
+                    />
+                </div>
+            </div>
+        </section>
+        <section id="topics">
+            <div class="topics">
+                <h1>Tópicos do evento</h1>
+
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img
+                            src="images/machine.png"
+                            alt="Imagem sobre Machine Learning"
+                        />
+                        <p>Machine Learning</p>
+                    </div>
+                    <div class="grid-item">
+                        <img
+                            src="images/armazenamento.png"
+                            alt="Imagem sobre Armazenamento"
+                        />
+                        <p>Armazenamento</p>
+                    </div>
+                    <div class="grid-item">
+                        <img
+                            src="images/base.png"
+                            alt="Imagem sobre Base de dados"
+                        />
+                        <p>Base de dados</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/computacao.png" alt="Imagem 4" />
+                        <p>Computação sem servidor</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/devops.png" alt="Imagem 5" />
+                        <p>DevOps</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/industria.png" alt="Imagem 6" />
+                        <p>Soluções para indústrias</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/dados.png" alt="Imagem 7" />
+                        <p>Dados e análises</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/desenvolvimento.png" alt="Imagem 8" />
+                        <p>Desenvolvimento</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="organization" id="organization">
+            <div class="content">
+                <div class="organization-text">
+                    <h1>Organização</h1>
+                    <p>
+                        A organização do TECH.NeST feita pela NeST foi
+                        meticulosa e focada em oferecer uma experiência
+                        enriquecedora para todos os participantes. Como uma
+                        empresa especializada em desenvolvimento de sites,
+                        e-commerces e SEO, a NeST aplicou sua vasta experiência
+                        em tecnologia digital para garantir o sucesso do evento.
+                        A NeST demonstrou seu compromisso com a excelência e
+                        liderança no campo da tecnologia, garantindo que o
+                        TECH.NeST fosse um evento de destaque no cenário
+                        tecnológico.
+                    </p>
+                </div>
+                <div class="organization-img">
+                    <img
+                        src="images/logonest.png"
+                        alt="Logo do evento tech.nest"
+                    />
+                    <img src="images/nest.png" alt="" />
+                </div>
+            </div>
+        </section>
+        <section class="register-nest" id="form">
+            <div class="forms">
+                <div class="forms-text">
+                    <h2>
+                        Inscreva-se no Primeiro Encontro de Tecnologia da NeST!
+                    </h2>
+                    <form>
+                        <div class="padding-input">
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                placeholder="Primeiro nome"
+                            />
+                        </div>
+                        <div class="padding-input">
+                            <input
+                                type="text"
+                                id="email"
+                                name="email"
+                                required
+                                placeholder="usuario@email.com"
+                            />
+                        </div>
+                        <p>
+                            A partir do preenchimento das informações acima,
+                            será enviado um e-mail com diversas informações em
+                            relação a horários e novas informações em relação ao
+                            TECH.NeST.
+                        </p>
+                        <input
+                            class="button-send"
+                            type="submit"
+                            value="Enviar"
+                        />
+                    </form>
+                </div>
+                <div>
+                    <img
+                        src="images/form.png"
+                        alt="Muitas pessoas em um evento de olho no palco"
+                    />
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-geral">
+                <div class="footer-social">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="footer-navbar">
+                    <ul>
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#topics">Tópicos</a>
+                        </li>
+                        <li>
+                            <a href="#organization">Organização</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
 </html>
