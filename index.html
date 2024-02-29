@@ -36,20 +36,173 @@
                     alt="Logo primeiro evento de tecnologia da NeST"
             /></a>
 
-            <ul class="barra">
-                <li><a href="#" class="ativo">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#topics">Tópicos</a></li>
+                <li><a href="#organization">Organização</a></li>
             </ul>
 
-            <div class="cadastro">
-                <a href="#">Cadastro</a>
-                <div class="bx bx-menu" id="icone-menu"></div>
+            <div class="register">
+                <a href="#form">Cadastro</a>
+                <div class="bx bx-menu" id="menu-icon"></div>
             </div>
         </header>
-        <section class="primeiro"><p>oiiii</p></section>
+        <section class="first" id="home">
+            <img
+                class="desktop"
+                src="images/primeiro-encontro3.png"
+                alt="Banner com uma imagem de um mouse e de um notebook sendo usados, utilizados para complementar o banner do primeiro evento de tecnologia promovido pela NeST"
+            />
+            <img
+                class="mobile"
+                src="images/primeiro-encontro-mobile.png"
+                alt="Banner com uma imagem de um mouse e de um notebook sendo usados, utilizados para complementar o banner do primeiro evento de tecnologia promovido pela NeST"
+            />
+        </section>
+        <section id="about">
+            <div class="local-technest">
+                <div class="local-text">
+                    <h1>Tech.NeST 2024</h1>
+                    <h2>O Futuro Começa Aqui!</h2>
+                    <span>Unifei Auditorio X</span>
+                    <p>25 e 26 de julho no Auditório X UNIFEI</p>
+                    <p>
+                        O TECH.NeST, abordará diversos temas da computação,
+                        reunindo profissionais e entusiastas para explorar as
+                        últimas tendências tecnológicas.
+                    </p>
+                    <button><a href="#form">Participe</a></button>
+                </div>
+                <div class="local-img">
+                    <img
+                        src="images/unifei.jpg"
+                        alt="Foto da Universidade Federal de Itajubá"
+                    />
+                </div>
+            </div>
+        </section>
+        <section id="topics">
+            <div class="topics">
+                <h1>Tópicos do evento</h1>
+
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img
+                            src="images/machine.png"
+                            alt="Imagem sobre Machine Learning"
+                        />
+                        <p>Machine Learning</p>
+                    </div>
+                    <div class="grid-item">
+                        <img
+                            src="images/armazenamento.png"
+                            alt="Imagem sobre Armazenamento"
+                        />
+                        <p>Armazenamento</p>
+                    </div>
+                    <div class="grid-item">
+                        <img
+                            src="images/base.png"
+                            alt="Imagem sobre Base de dados"
+                        />
+                        <p>Base de dados</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/computacao.png" alt="Imagem 4" />
+                        <p>Computação sem servidor</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/devops.png" alt="Imagem 5" />
+                        <p>DevOps</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/industria.png" alt="Imagem 6" />
+                        <p>Soluções para indústrias</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/dados.png" alt="Imagem 7" />
+                        <p>Dados e análises</p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="images/desenvolvimento.png" alt="Imagem 8" />
+                        <p>Desenvolvimento</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="organization" id="organization">
+            <div class="content">
+                <div class="organization-text">
+                    <h1>Organização</h1>
+                    <p>
+                        A organização do TECH.NeST feita pela NeST foi
+                        meticulosa e focada em oferecer uma experiência
+                        enriquecedora para todos os participantes. Como uma
+                        empresa especializada em desenvolvimento de sites,
+                        e-commerces e SEO, a NeST aplicou sua vasta experiência
+                        em tecnologia digital para garantir o sucesso do evento.
+                        A NeST demonstrou seu compromisso com a excelência e
+                        liderança no campo da tecnologia, garantindo que o
+                        TECH.NeST fosse um evento de destaque no cenário
+                        tecnológico.
+                    </p>
+                </div>
+                <div class="organization-img">
+                    <img
+                        src="images/logonest.png"
+                        alt="Logo do evento tech.nest"
+                    />
+                    <img src="images/nest.png" alt="" />
+                </div>
+            </div>
+        </section>
+        <section class="register-nest" id="form">
+            <div class="forms">
+                <div class="forms-text">
+                    <h2>
+                        Inscreva-se no Primeiro Encontro de Tecnologia da Nest!
+                    </h2>
+                    <form>
+                        <div class="padding-input">
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                placeholder="Primeiro nome"
+                            />
+                        </div>
+                        <div class="padding-input">
+                            <input
+                                type="text"
+                                id="email"
+                                name="email"
+                                required
+                                placeholder="usuario@email.com"
+                            />
+                        </div>
+                        <p>
+                            A partir do preenchimento das informações acima,
+                            será enviado um e-mail com diversas informações em
+                            relação a horários e novas informações em relação ao
+                            TECH.NeST.
+                        </p>
+                        <input
+                            class="button-send"
+                            type="submit"
+                            value="Enviar"
+                        />
+                    </form>
+                </div>
+                <div>
+                    <img
+                        src="images/form.png"
+                        alt="Muitas pessoas em um evento de olho no palco"
+                    />
+                </div>
+            </div>
+        </section>
         <footer>
             <div class="footer-geral">
                 <div class="footer-social">
@@ -58,13 +211,13 @@
                     <a href=""><i class="fa-brands fa-twitter"></i></a>
                     <a href=""><i class="fa-brands fa-youtube"></i></a>
                 </div>
-                <div class="footer-barra">
+                <div class="footer-navbar">
                     <ul>
                         <li>
                             <a href="">Home</a>
                         </li>
                         <li>
-                            <a href="">About</a>
+                            <a href="">Sobre</a>
                         </li>
                         <li>
                             <a href="">Services</a>
